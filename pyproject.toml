@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rbnn_nerf"
+version = "0.0.1"
+authors = [
+  { name="Justice Mason", email="jjmason@princeton.edu " },
+  {name="Tao Zhong", email="tzhong@princeton.edu"}		
+]
+description = "A package that combines neural radiance fields with learned dynamics"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+]
+dependencies = [
+    "numpy",
+    "torch"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/CAB-Lab-Princeton/rbnn_nerfs"
